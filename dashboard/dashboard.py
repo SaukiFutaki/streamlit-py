@@ -15,7 +15,7 @@ try:
     for path in possible_paths:
         if os.path.exists(path):
             df = pd.read_csv(path)
-            st.success(f"Berhasil membaca file dari {path}")
+            st.success(f"Berhasil membaca file dari  {path}, oke")
             break
     else:
 
