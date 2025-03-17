@@ -6,7 +6,7 @@ import os
 
 try:
 
-    paths = ["all_data.csv","./all_data.csv","../data/all_data.csv", "data/all_data.csv", "./data/all_data.csv"]
+    paths = ["main_data.csv","./main_data.csv","../data/main_data.csv", "data/main_data.csv", "./data/main_data.csv"]
 
     for path in paths:
         if os.path.exists(path):

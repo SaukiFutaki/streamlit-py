@@ -27,7 +27,7 @@ Analisis menggunakan gabungan dari dua dataset:
 - `day.csv`: Data agregat harian penyewaan sepeda
 - `hour.csv`: Data penyewaan sepeda per jam
 
-Kedua dataset telah digabungkan menggunakan operasi merge berdasarkan tanggal untuk membuat dataset komprehensif `all_data.csv`.
+Kedua dataset telah digabungkan menggunakan operasi merge berdasarkan tanggal untuk membuat dataset komprehensif `main_data.csv`.
 
 ## Pertanyaan Bisnis
 1. Bagaimana kondisi cuaca (suhu, kelembaban, dan kecepatan angin) mempengaruhi jumlah peminjam sepeda?
