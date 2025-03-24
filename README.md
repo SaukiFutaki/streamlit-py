@@ -21,7 +21,6 @@ pip install -r requirements.txt
 streamlit run dashboard.py
 ```
 
-
 ## Dataset
 Analisis menggunakan gabungan dari dua dataset:
 - `day.csv`: Data agregat harian penyewaan sepeda
@@ -30,14 +29,16 @@ Analisis menggunakan gabungan dari dua dataset:
 Kedua dataset telah digabungkan menggunakan operasi merge berdasarkan tanggal untuk membuat dataset komprehensif `main_data.csv`.
 
 ## Pertanyaan Bisnis
-1. Bagaimana kondisi cuaca (suhu, kelembaban, dan kecepatan angin) mempengaruhi jumlah peminjam sepeda?
+1. Bagaimana perbedaan jumlah peminjam sepeda antara hari kerja dan akhir pekan?
 2. Apakah ada pola musiman dalam penggunaan sepeda, terutama pada bulan-bulan tertentu?
 
 ## Fitur Dashboard
 - **Filter Data**: Memungkinkan pengguna menyaring data berdasarkan rentang waktu dan jam
 - **Metrik Utama**: Menampilkan total pengguna, rata-rata suhu, dan jam tersibuk
-- **Tren Penggunaan**: Visualisasi tren penggunaan sepeda harian dan per jam
-- **Analisis Musim & Cuaca**: Menampilkan pengaruh musim dan hubungan antara suhu dengan jumlah pengguna
-- **Profil Pengguna**: Perbandingan pengguna casual vs registered
-- **Heatmap Waktu**: Visualisasi pola penggunaan berdasarkan hari dan jam
-
+- **Analisis Hari Kerja vs Akhir Pekan**: 
+  - Perbandingan rata-rata pengguna antara hari kerja dan akhir pekan
+  - Komposisi pengguna casual vs registered berdasarkan tipe hari
+  - Distribusi persentase pengguna pada hari kerja dan akhir pekan
+- **Analisis Pola Musiman**:
+  - Tren total penggunaan sepeda berdasarkan bulan
+  - Penggunaan sepeda berdasarkan musim (Musim Semi, Musim Panas, Musim Gugur, Musim Dingin)
